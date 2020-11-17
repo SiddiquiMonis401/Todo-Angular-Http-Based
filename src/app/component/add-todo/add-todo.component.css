@@ -1,0 +1,14 @@
+.form-custom{
+    display: flex;
+}
+
+.form-group {
+    width: 90%;
+}
+.btn-submit{
+    width: 10%;
+}
+.input-form{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,12 @@
+<form #form="ngForm" class="form-custom" (ngSubmit)="submitHandler(form)">
+  <div class="form-group">
+    <input
+      type="text"
+      class="input-form"
+      placeholder="Add your todo"
+      name="title"
+      ngModel
+    />
+  </div>
+  <button type="submit" class="btn btn-submit">Submit</button>
+</form>
