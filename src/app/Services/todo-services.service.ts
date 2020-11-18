@@ -20,8 +20,8 @@ export class TodoServicesService {
   constructor(private http: HttpClient) { }
 
   //Service for getting the todos
-  getTodos(): Observable<Todos[]>{
-    return this.http.get<Todos[]>(`${this.todosUrl}${this.limit}`)
+  getTodos(): Observable<any>{
+    return this.http.get<any>(`${this.todosUrl}${this.limit}`)
   }
 
   //Service for updating the todos

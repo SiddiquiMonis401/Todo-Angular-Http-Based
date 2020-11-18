@@ -20,7 +20,6 @@ export class AddTodoComponent implements OnInit {
   };
 
   submitHandler(form: any) {
-    console.log("submit Handler runs!");
     this.todos= {
       id: new Date().getTime(),
       title: form.value.title,

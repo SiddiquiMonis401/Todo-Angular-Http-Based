@@ -9,6 +9,7 @@ import { TodosComponent } from './component/todos/todos.component';
 import { TodoItemsComponent } from './component/todo-items/todo-items.component';
 import { HeaderComponent } from './component/layout/header/header.component';
 import { AddTodoComponent } from './component/add-todo/add-todo.component';
+import { AboutAppComponent } from './component/about-app/about-app.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { AddTodoComponent } from './component/add-todo/add-todo.component';
     TodosComponent,
     TodoItemsComponent,
     HeaderComponent,
-    AddTodoComponent
+    AddTodoComponent,
+    AboutAppComponent,
   ],
   imports: [
     BrowserModule,
